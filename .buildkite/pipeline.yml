@@ -1,0 +1,3 @@
+steps:
+  - command: "docker-compose run -e CI=true tests npm run test"
+    label: "Running test in tests container from agent"
